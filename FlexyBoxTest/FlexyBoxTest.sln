@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29311.281
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexyBoxTest.Domain", "FlexyBoxTest.Domain\FlexyBoxTest.Domain.csproj", "{02C4DC18-3A32-4C95-883C-4DB83915625D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexyBoxTest.Domain", "FlexyBoxTest.Domain\FlexyBoxTest.Domain.csproj", "{02C4DC18-3A32-4C95-883C-4DB83915625D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexyBoxTest.Utility", "FlexyBoxTest.Utility\FlexyBoxTest.Utility.csproj", "{78076321-13F0-4D00-80B7-CF9636692F8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexyBoxTest.Utility", "FlexyBoxTest.Utility\FlexyBoxTest.Utility.csproj", "{78076321-13F0-4D00-80B7-CF9636692F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexyBoxTest.ConsoleApplication", "FlexyBoxTest.Console\FlexyBoxTest.ConsoleApplication.csproj", "{310795E4-BBCD-4AAB-A01B-C367B88EC1D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexyBoxTest.ConsoleApplication", "FlexyBoxTest.Console\FlexyBoxTest.ConsoleApplication.csproj", "{310795E4-BBCD-4AAB-A01B-C367B88EC1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C3149EC-7D59-4811-B5CE-8871973F7496}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexyBoxTest.Test", "FlexyBoxTest.Test\FlexyBoxTest.Test.csproj", "{FC0F9407-7B14-4E3D-A4AF-5AD15FD212A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{310795E4-BBCD-4AAB-A01B-C367B88EC1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{310795E4-BBCD-4AAB-A01B-C367B88EC1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{310795E4-BBCD-4AAB-A01B-C367B88EC1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0F9407-7B14-4E3D-A4AF-5AD15FD212A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0F9407-7B14-4E3D-A4AF-5AD15FD212A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0F9407-7B14-4E3D-A4AF-5AD15FD212A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0F9407-7B14-4E3D-A4AF-5AD15FD212A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
